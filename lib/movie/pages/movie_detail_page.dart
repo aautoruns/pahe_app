@@ -307,8 +307,8 @@ class _WidgetSummary extends SliverToBoxAdapter {
                     ),
                     children: [
                       _tableContent(
-                        title: "For Adult?",
-                        content: movie.adult ? "Yes" : "No",
+                        title: "Movie Rating",
+                        content: movie.adult ? "R-Rated" : "PG-13",
                       ),
                       _tableContent(
                         title: "Popularity",

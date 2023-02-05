@@ -6,7 +6,7 @@ import 'package:pahe_app/widget/image_widget.dart';
 
 class MovieSearchPage extends SearchDelegate {
   @override
-  String? get searchFieldLabel => "Cari Film";
+  String? get searchFieldLabel => "Search Movie Title";
 
   @override
   List<Widget>? buildActions(BuildContext context) {
