@@ -1,6 +1,6 @@
 <div align="justify">
 <h2> 
-    <img src="assets/img/logo.png" width="75px">
+    <img src="assets/images/logo.png" width="75px">
     <p>Pahe+ App</p>
 </h2>
 

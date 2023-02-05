@@ -6,7 +6,7 @@ import 'package:pahe_app/movie/pages/movie_pagination_page.dart';
 import 'package:pahe_app/movie/pages/movie_search_page.dart';
 
 class MoviePage extends StatelessWidget {
-  MoviePage({super.key});
+  const MoviePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,13 +17,15 @@ class MoviePage extends StatelessWidget {
             title: Row(
               mainAxisSize: MainAxisSize.min,
               // ignore: prefer__literals_to_create_immutables
+              // ignore: prefer_const_literals_to_create_immutables
               children: [
-                Padding(
+                const Padding(
                   padding: EdgeInsets.all(8.0),
                 ),
-                Text(
-                  'PAHE+',
+                const Text(
+                  'Pahe+',
                   style: TextStyle(
+                    fontFamily: 'BebasNeue',
                     fontSize: 32.0,
                   ),
                 ),
@@ -35,7 +37,7 @@ class MoviePage extends StatelessWidget {
                   context: context,
                   delegate: MovieSearchPage(),
                 ),
-                icon: Icon(Icons.search),
+                icon: const Icon(Icons.search),
               ),
             ],
             floating: true,
@@ -71,7 +73,7 @@ class MoviePage extends StatelessWidget {
               );
             },
           ),
-          MovieGetTopRatedComponent(),
+          const MovieGetTopRatedComponent(),
           _widgetTitle(
             title: 'Now Playing In Cinemas',
             onPressed: () {
@@ -85,8 +87,8 @@ class MoviePage extends StatelessWidget {
               );
             },
           ),
-          MovieNowPlayingComponent(),
-          SliverToBoxAdapter(
+          const MovieNowPlayingComponent(),
+          const SliverToBoxAdapter(
             child: SizedBox(height: 16),
           ),
         ],
@@ -100,18 +102,18 @@ class _widgetTitle extends SliverToBoxAdapter {
   final String title;
   final void Function() onPressed;
 
-  _widgetTitle({required this.title, required this.onPressed});
+  const _widgetTitle({required this.title, required this.onPressed});
 
   @override
   Widget? get child => Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
               title,
               // ignore: prefer__ructors
-              style: TextStyle(
+              style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 18.0,
               ),
@@ -119,13 +121,13 @@ class _widgetTitle extends SliverToBoxAdapter {
             OutlinedButton(
               onPressed: onPressed,
               // ignore: sort_child_properties_last
-              child: Text(
-                'Lihat Semua',
+              child: const Text(
+                'See All',
               ),
               style: OutlinedButton.styleFrom(
                 foregroundColor: Colors.black,
-                shape: StadiumBorder(),
-                side: BorderSide(
+                shape: const StadiumBorder(),
+                side: const BorderSide(
                   color: Colors.black54,
                 ),
               ),

@@ -13,12 +13,12 @@ void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   setup();
-  runApp(App());
+  runApp(const App());
   FlutterNativeSplash.remove();
 }
 
 class App extends StatelessWidget {
-  App({super.key});
+  const App({super.key});
 
   @override
   Widget build(BuildContext context) {
