@@ -4,7 +4,7 @@
     <p>Pahe+ App</p>
 </h2>
 
-![Total Download](https://img.shields.io/github/downloads/aautoruns/pahe_app/total?color=1A0072&label=Total%20Download&logo=android&style=for-the-badge)
+![Total Download](https://img.shields.io/github/downloads/aautoruns/pahe_app/total?color=2ef2aa&label=Total%20Download&logo=android&style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/aautoruns/pahe_app?color=1a0072&logo=Github&style=for-the-badge)
 ![Date](https://img.shields.io/github/release-date/aautoruns/pahe_app?color=d81744&style=for-the-badge)
 
@@ -16,7 +16,8 @@
 
 **Pahe+** is a mobile application _film catalog_, which contains various information on f**ilms currently showing in theaters, old films, foreign and local films, and films with high ratings.** With very easy access and easy to understand.
 
-**Pahe+ Features :**
+### Pahe+ Features :
+
 <li>Search Menu</li>
 This menu you can search for any movie you want to find,
 <li>Discover Menu</li>
