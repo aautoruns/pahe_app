@@ -27,6 +27,10 @@ This menu is the menu where all high rated films, above 8 appear. This sorting i
 <li>Now Playing in Cinema</li>
 As the name suggests, this menu contains any films from around the world that are showing in theaters right now.
 
+### Promotion Ads 😶‍🌫️
+    
+https://user-images.githubusercontent.com/96577430/217576693-4923056b-4923-4f0a-ad3f-b840697956d7.mp4
+    
 ### Dart Package :
 
 <details>
